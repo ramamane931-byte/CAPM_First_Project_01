@@ -1,0 +1,430 @@
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:20.114741] Updated app with guid 50f16e08-1aa4-4c26-b4ff-1726005936ce ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:20.218808] Updating process: "web" (STDOUT, API)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:28.007937] Uploading app package for app with guid 50f16e08-1aa4-4c26-b4ff-1726005936ce (STDOUT, API)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:28.186067] Updated app with guid 50f16e08-1aa4-4c26-b4ff-1726005936ce ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:38.153505] Creating build for app with guid 50f16e08-1aa4-4c26-b4ff-1726005936ce (STDOUT, API)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:38.612467] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:38.659051] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:38.659144] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 22603d32-6c3f-412d-bc61-2ab39ddfd909 (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:39.448100] Security group rules were updated (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:39.549831] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 22603d32-6c3f-412d-bc61-2ab39ddfd909 (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:40.518182] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:40.518184] Downloading app package... (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:40.602385] Downloaded build artifacts cache (221B) (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:40.927795] Downloaded app package (2.4M) (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:41.049863] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:41.293662] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:41.293702] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:41.293723] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:45.900659] -----> Installing binaries (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:45.900868] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:45.900963] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:45.901080] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:45.901326] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 07 12 10:55:48.026#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-7419#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:45.901574] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 07 12 10:55:57.924#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.531760] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 07 12 10:55:57.924#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.531797] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.531901] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.911376] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.911422] -----> Creating runtime environment (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913215] NODE_ENV=production (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913291] NODE_HOME=/tmp/contents2925051525/deps/0/node (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913301] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913304] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913307] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913310] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913312] -----> Building dependencies (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913314] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913544] Rebuilding any native modules (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:49.471674] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:49.539697] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:50.025119] up to date in 398ms (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:50.025327] 4 packages are looking for funding (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:50.025390] run `npm fund` for details (STDOUT, STG)#
+#2026 07 12 10:55:57.925#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21832#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:50.758828] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 07 12 10:56:07.942#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21836#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:00.461282] Exit status 0 (STDOUT, STG)#
+#2026 07 12 10:56:07.942#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21836#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:00.461326] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 07 12 10:56:07.942#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21836#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:00.461362] Uploading droplet... (STDOUT, STG)#
+#2026 07 12 10:56:07.942#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21836#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:00.461663] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 07 12 10:56:07.942#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21836#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:00.480802] Uploaded build artifacts cache (221B) (STDOUT, STG)#
+#2026 07 12 10:56:07.942#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21836#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:01.067530] Creating droplet for app with guid 50f16e08-1aa4-4c26-b4ff-1726005936ce (STDOUT, API)#
+#2026 07 12 10:56:07.943#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21836#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:05.135934] Uploaded droplet (58.6M) (STDOUT, STG)#
+#2026 07 12 10:56:07.943#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21836#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:05.155539] Uploading complete (STDOUT, STG)#
+#2026 07 12 10:56:07.943#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21836#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:05.819899] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 22603d32-6c3f-412d-bc61-2ab39ddfd909 (STDOUT, STG)#
+#2026 07 12 10:56:07.943#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21836#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:05.819941] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 22603d32-6c3f-412d-bc61-2ab39ddfd909 (STDOUT, STG)#
+#2026 07 12 10:56:07.943#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21836#
+[PollStageAppStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:05.868880] Staging complete for build 22603d32-6c3f-412d-bc61-2ab39ddfd909 (STDOUT, API)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:20.114741] Updated app with guid 50f16e08-1aa4-4c26-b4ff-1726005936ce ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:20.218808] Updating process: "web" (STDOUT, API)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:28.007937] Uploading app package for app with guid 50f16e08-1aa4-4c26-b4ff-1726005936ce (STDOUT, API)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:28.186067] Updated app with guid 50f16e08-1aa4-4c26-b4ff-1726005936ce ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:38.153505] Creating build for app with guid 50f16e08-1aa4-4c26-b4ff-1726005936ce (STDOUT, API)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:38.612467] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:38.659051] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:38.659144] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 22603d32-6c3f-412d-bc61-2ab39ddfd909 (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:39.448100] Security group rules were updated (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:39.549831] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 22603d32-6c3f-412d-bc61-2ab39ddfd909 (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:40.518182] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:40.518184] Downloading app package... (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:40.602385] Downloaded build artifacts cache (221B) (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:40.927795] Downloaded app package (2.4M) (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:41.049863] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:41.293662] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:41.293702] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:41.293723] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:45.900659] -----> Installing binaries (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:45.900868] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:45.900963] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:45.901080] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:45.901326] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:45.901574] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.531760] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.531797] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.531901] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.911376] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.911422] -----> Creating runtime environment (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913215] NODE_ENV=production (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913291] NODE_HOME=/tmp/contents2925051525/deps/0/node (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913301] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913304] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913307] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913310] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913312] -----> Building dependencies (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913314] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:48.913544] Rebuilding any native modules (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:49.471674] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:49.539697] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:50.025119] up to date in 398ms (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:50.025327] 4 packages are looking for funding (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:50.025390] run `npm fund` for details (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:55:50.758828] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:00.461282] Exit status 0 (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:00.461326] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:00.461362] Uploading droplet... (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:00.461663] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:00.480802] Uploaded build artifacts cache (221B) (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:01.067530] Creating droplet for app with guid 50f16e08-1aa4-4c26-b4ff-1726005936ce (STDOUT, API)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:05.135934] Uploaded droplet (58.6M) (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:05.155539] Uploading complete (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:05.819899] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 22603d32-6c3f-412d-bc61-2ab39ddfd909 (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:05.819941] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 22603d32-6c3f-412d-bc61-2ab39ddfd909 (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:05.868880] Staging complete for build 22603d32-6c3f-412d-bc61-2ab39ddfd909 (STDOUT, API)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:08.008615] Updated app with guid 50f16e08-1aa4-4c26-b4ff-1726005936ce ({:droplet_guid=>"e05d55b0-c08d-4a50-97a7-346180530059"}) (STDOUT, API)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:08.691863] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 2f0aab94-7f3d-40f4-9d2a-e32fb7771b50 (STDOUT, CELL)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:08.919140] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 22603d32-6c3f-412d-bc61-2ab39ddfd909 (STDOUT, STG)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:09.531764] Security group rules were updated (STDOUT, CELL)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:09.614827] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 2f0aab94-7f3d-40f4-9d2a-e32fb7771b50 (STDOUT, CELL)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:15.669291] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:15.875144] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.345670] > start (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.345702] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.504385] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.504949] { (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.504964] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.504967] { (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.504971] "name": "ramacapapp_02-db", (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.504975] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.504979] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.504981] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.504984] "schema": "8005B00F06064D39A417560574D2BAE0", (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.504989] "database_id": "ef15aefa-4029-4c10-92ca-5a94fcccd929", (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.504993] "user": "8005B00F06064D39A417560574D2BAE0_AVEHZZ6V3D339BIWANKXFR0KR_RT", (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.505001] "hdi_user": "8005B00F06064D39A417560574D2BAE0_AVEHZZ6V3D339BIWANKXFR0KR_DT" (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.505004] }, (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.505006] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.505008] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.505011] "database", (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.505013] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.505016] ] (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.505018] } (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.505020] ] (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.505022] } (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.957636] @sap/hdi-deploy, version 5.7.0 (mode default), server version 4.00.000.00.1782206579 (4.0.0.0), cloud version 2026.14.8, node version 24.15.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.957763] Deployment started at 2026-07-12 10:56:16 (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.957874] Using hdb@2.29.5 for connection (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.977616] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.978053] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.984303] Collecting files... ok (0s 6ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.984335] 3 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.984490] 63 files collected (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.984503] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:16.984573] Target service: ramacapapp_02-db (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.186801] Previous build with request ID 115 finished at 2026-07-12T08:32:42.926 with status Rolled back and message: Starting make in the container "8005B00F06064D39A417560574D2BAE0" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.186837] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.186897] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.187024] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.187093] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.190048] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.190283] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.190373] Connecting to the container "8005B00F06064D39A417560574D2BAE0"... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.267022] Connecting to the container "8005B00F06064D39A417560574D2BAE0"... ok (0s 76ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.267056] Locking the container "8005B00F06064D39A417560574D2BAE0"... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.396844] Locking the container "8005B00F06064D39A417560574D2BAE0"... ok (0s 130ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:17.986#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21847#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.396870] Synchronizing files with the container "8005B00F06064D39A417560574D2BAE0"... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.635318] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.778954] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.778984] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.779116] Writing 3 items (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.938007] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.938030] Synchronizing files with the container "8005B00F06064D39A417560574D2BAE0"... ok (0s 541ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.938308] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.938321] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.938332] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.938463] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.938712] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.938772] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.938795] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:17.938858] Deploying to the container "8005B00F06064D39A417560574D2BAE0"... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310156] Starting make in the container "8005B00F06064D39A417560574D2BAE0" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310181] Disabling table replication for the container schema "8005B00F06064D39A417560574D2BAE0"... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310208] Disabling table replication for the container schema "8005B00F06064D39A417560574D2BAE0"... ok (0s 14ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310212] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310286] Migrating libraries... ok (0s 19ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310375] Making... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310466] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310510] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310579] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310623] Preparing the make transaction... ok (0s 35ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310698] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310752] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310827] Expanding... ok (0s 11ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310877] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.310953] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.311] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.311064] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.311111] Calculating dependencies... ok (0s 11ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.311177] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.311219] Making... ok (0s 125ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.311288] Enabling table replication for the container schema "8005B00F06064D39A417560574D2BAE0"... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.311322] Enabling table replication for the container schema "8005B00F06064D39A417560574D2BAE0"... ok (0s 11ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.311389] Starting make in the container "8005B00F06064D39A417560574D2BAE0" with 0 files to deploy, 0 files to undeploy... ok (0s 179ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.311433] Deploying to the container "8005B00F06064D39A417560574D2BAE0"... ok (0s 372ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.311710] No default-access-role handling needed; global role "8005B00F06064D39A417560574D2BAE0::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.312678] Unlocking the container "8005B00F06064D39A417560574D2BAE0"... (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.313343] Unlocking the container "8005B00F06064D39A417560574D2BAE0"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.313528] Deployment to container 8005B00F06064D39A417560574D2BAE0 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.314090] Deployment ended at 2026-07-12 10:56:18 (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.314480] (1s 923ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.329480] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.329511] npm notice New major version of npm available! 11.12.1 -> 12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.329516] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.329519] npm notice To update run: npm install -g npm@12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.329525] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:18.405165] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:19.654220] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 2f0aab94-7f3d-40f4-9d2a-e32fb7771b50 (STDOUT, CELL)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:19.654272] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 2f0aab94-7f3d-40f4-9d2a-e32fb7771b50 (STDOUT, CELL)#
+#2026 07 12 10:56:28.014#Z#DEBUG#23bb74bf-7de0-11f1-86b9-eeee0a925f77.ramacapapp_02-db-deployer#flowable-async-job-executor-thread-21854#
+[PollExecuteTaskStatusExecution] 50f16e08-1aa4-4c26-b4ff-1726005936ce [2026-07-12T10:56:22.324176] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 2f0aab94-7f3d-40f4-9d2a-e32fb7771b50 (STDOUT, CELL)#
