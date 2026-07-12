@@ -1,0 +1,155 @@
+###Like a simple test Client (Browser)
+
+### Three Hash to start new call
+### This is the test of hello world service
+http://localhost:4004/odata/v4/MyService/ramdas(name='RAMA')
+
+###Consume the service document - describe what are the entities part of my service
+http://localhost:4004/odata/v4/CatalogService
+
+###Metadata document of the odata service - $metadata
+http://localhost:4004/odata/v4/CatalogService/$metadata
+
+###Read my All Employee Data - SELECT * FROM emp
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet
+Authorization: Basic ramdas:194*Terminator
+
+###Read only the relevant fields from all employess - SELECT ID, nameFirst,.. FROM employee
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$select=ID,nameFirst,nameLast,sex,email
+Authorization: Basic ramdas:194*Terminator
+
+###Get the total count of employee Record - $count
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet/$count
+
+###Pagination - Load data chunk by chunk for performance - $top, $skip
+### SELECT * UPTO n ROWS emp
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$top=2
+
+###Skip first two records and display next two records: $skip
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$top=2&$skip=2
+
+###Load a single employee by Key - SELECT SINGLE * FROM emp WHERE ID = 'YOUR ID'
+###When you practice, please take the id from last call
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet/02BD2137-0890-1EEA-A6C2-BB55C197C7FB
+
+###Another way of passing ID	
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet(ID='02BD2137-0890-1EEA-A6C2-BB55C197C7FB')
+
+###How to filter the data based on condition - $filter
+###SELECT * FROM emp WHERE bankName = 'My Bank of San Francisco'
+### eq, nq, ge, le, lt, gt
+###http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$filter=bankName eq 'My Bank of San Francisco'&$top=2
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$filter=bankName eq 'My Bank of San Francisco'
+
+###Display top two records with the filter bankName:
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$filter=bankName eq 'My Bank of San Francisco'&$top=2
+
+###Can we filter data based on 'pattern' match:
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$filter=contains(nameFirst,'Su')
+
+###Sorting data - $orderby - SELECT * FROM emp ORDER BY salaryAmount descending
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$orderby=salaryAmount desc
+
+###Load the Purchase order data - all
+http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet
+
+###Get Single PO data
+http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet/74867AD200E41EDBA5D8B0C98DC30052
+
+###Get only items data for this purchase order
+### SELECT item_columns FROM tab1 INNER JOIN tab2 ON join_cond
+http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet/74867AD200E41EDBA5D8B0C98DC30052/Items
+
+###Load order header of a single order + its all items TOGETHER - $expand
+http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet/74867AD200E41EDBA5D8B0C98DC30052?$expand=Items
+
+###Using CDS view we do lazy loading (Loose coupling):
+http://localhost:4004/odata/v4/CDSService/ProductSet/74867AD200E41EDBA5D8B06B26EBE052?$expand=To_Items
+
+###Using Odata V4 to allow filtering of child data also
+http://localhost:4004/odata/v4/CDSService/ProductSet/74867AD200E41EDBA5D8B06B26EBE052?$expand=To_Items($filter=TaxAmount le 500)
+
+###Create opeation to 'insert' data into database:
+POST http://localhost:4004/odata/v4/CatalogService/EmployeeSet
+Authorization: Basic ananya:ananya
+Content-Type: application/json
+
+{
+  "nameFirst": "Raj",
+  "nameMiddle": null,
+  "nameLast": "Thakrey",
+  "nameInitials": null,
+  "sex": "M",
+  "language": "E",
+  "phoneNumber": null,
+  "email": "raj118@sap.com",
+  "loginName": "RAJU",
+  "Currency_code": "INR",
+  "salaryAmount": 1000000,
+  "accountNumber": "8000937833",
+  "bankId": "9999900",
+  "bankName": "My State Bank of Mumbai"
+}
+
+###Change Data - update - copy the id created in last call
+PATCH http://localhost:4004/odata/v4/CatalogService/EmployeeSet/4c0c5499-cb40-4c7e-92e9-18dcaaa6f8a7
+Content-Type: application/json
+
+{
+    "salaryAmount": 4109999
+}
+
+###Delete the data from DB
+DELETE http://localhost:4004/odata/v4/CatalogService/EmployeeSet/f2ac1366-f5ef-420c-8650-eb55db78d545
+
+###Tesing deep insert  = pass batch of data togther Header + Item
+POST http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet
+Content-Type: application/json
+
+{
+  "grossAmount": 4467.94,
+  "currency_code": "EUR",
+  "NET_AMOUNT": 3754.57,
+  "TAX_AMOUNT": 713.37,
+  "NODE_KEY": "74867AD200E41EDBA5D8B0C98DC30666",
+  "PO_ID": "300055555",
+  "PARTNER_GUID_NODE_KEY": "74867AD200E41EDBA5D8B06885AB8052",
+  "LIFECYCLE_STATUS": "N",
+  "OVERALL_STATUS": "P",
+  "NOTE": "Example of Deep Insert",
+  "Items": [
+    {
+      "grossAmount": 107.08,
+      "currency_code": "EUR",
+      "NET_AMOUNT": 89.98,
+      "TAX_AMOUNT": 17.1,
+      "NODE_KEY": "74867AD200E41EDBA5D8B0CBD35E6061",
+      "PO_ITEM_POS": 10,
+      "PRODUCT_GUID_NODE_KEY": "74867AD200E41EDBA5D8B06B26F6E052"
+    },
+    {
+      "grossAmount": 95.08,
+      "currency_code": "EUR",
+      "NET_AMOUNT": 79.9,
+      "TAX_AMOUNT": 15.18,
+      "NODE_KEY": "74867AD200E41EDBA5D8B0CBD35E6062",
+      "PO_ITEM_POS": 20,
+      "PRODUCT_GUID_NODE_KEY": "74867AD200E41EDBA5D8B06B26F14052"
+    }
+  ]
+} 
+
+###Test the function to load top 3 POs:
+http://localhost:4004/odata/v4/CatalogService/getLargestOrder()
+
+###Read my order data:
+http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet/74867AD200E41EDBA5D8B0C98DC30052
+
+###Calling action using POST request: 'Increase the grossAmount by 20000 every time we boost it':
+POST http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet/74867AD200E41EDBA5D8B0C98DC30052/boost
+Content-Type: application/json
+
+{}
+
+### Example for OData V2 service:
+http://localhost:4004/odata/v2/CatalogService/EmployeeSet?$filter=bankName eq 'My Bank of San Francisco'
