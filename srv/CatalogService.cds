@@ -17,7 +17,7 @@ service CatalogService @(
                       @(restrict: [
         {
             grant: ['READ'],
-            to   : 'Viewer',
+            to   : 'Display',
             //row level security
             where: 'bankName = $user.spiderman'
         },
@@ -26,7 +26,7 @@ service CatalogService @(
                 'WRITE',
                 'DELETE'
             ],
-            to   : 'Editor'
+            to   : 'Edit'
         }
     ]) //EOM-Session 14:
                               as projection on master.employee;
@@ -39,19 +39,19 @@ service CatalogService @(
     entity PurchaseOrderSet @(
 
         //SOM-Session 14:
-        // restrict                    : [
-        //     {
-        //         grant: ['READ'],
-        //         to   : 'Viewer'
-        //     },
-        //     {
-        //         grant: [
-        //             'WRITE',
-        //             'DELETE'
-        //         ],
-        //         to   : 'Editor'
-        //     }
-        // ],
+        restrict                    : [
+            {
+                grant: ['READ'],
+                to   : 'Display'
+            },
+            {
+                grant: [
+                    'WRITE',
+                    'DELETE'
+                ],
+                to   : 'Edit'
+            }
+        ],
         //EOM-Session 14
 
         odata.draft.enabled         : true,
