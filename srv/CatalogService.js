@@ -21,6 +21,7 @@ module.exports = class CatalogService extends cds.ApplicationService {
     })
     this.before(['CREATE', 'UPDATE'], PurchaseOrderSet, async (req) => {
       console.log('Before CREATE/UPDATE PurchaseOrderSet', req.data)
+      // Code here for early numbering
     })
     this.after('READ', PurchaseOrderSet, async (purchaseOrderSet, req) => {
       console.log('After READ PurchaseOrderSet', purchaseOrderSet)
