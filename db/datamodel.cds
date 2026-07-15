@@ -7,6 +7,8 @@ using {
     cuid
 } from '@sap/cds/common';
 
+using {Attachments} from '@cap-js/attachments'; // Added from Session 20
+
 context master {
 
     //foreign ky table - ADDRESS_GUID
@@ -98,6 +100,7 @@ context transaction {
         Items            : Composition of many poitems
                                on Items.PARENT_KEY = $self
                                                                  @(title: '{i18n>PO_ITEM_KEY}');
+        attachments      : Composition of many Attachments;
     }
 
     entity poitems : common.Amount, cuid { // added 'cuid' bcoz we have used standard guid aspect

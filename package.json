@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "dependencies": {
     "@cap-js-community/odata-v2-adapter": "^1.15.12",
+    "@cap-js/attachments": "^3.13.1",
     "@cap-js/hana": "^2",
     "@sap/cds": "^9",
-    "express": "^5.2.1",
-    "@sap/xssec": "^4"
+    "@sap/xssec": "^4",
+    "express": "^5.2.1"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^2.4",
@@ -43,7 +44,8 @@
             "ramdas": {
               "password": "194*Terminator",
               "roles": [
-                "Viewer"
+                "Display",
+                "Edit"
               ],
               "attr": {
                 "spiderman": [
