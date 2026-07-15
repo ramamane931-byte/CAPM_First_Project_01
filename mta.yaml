@@ -11,7 +11,7 @@ build-parameters:
         - npm ci
         - npx cds build --production
 modules:
-##this is our UI module added = fioriui+approuter
+  ##this is our UI module added = fioriui+approuter
   - name: ramacapapp_02-ui
     type: nodejs
     path: app
@@ -20,6 +20,8 @@ modules:
       buildpack: nodejs_buildpack
     build-parameters:
       builder: npm-ci
+    properties:
+      TENANT_HOST_PATTERN: "^(.*)-${default-uri}"
     requires:
       - name: ramacapapp_02-auth
       - name: srv-api
@@ -29,8 +31,20 @@ modules:
           strictSSL: true
           forwardAuthToken: true
           url: '~{srv-url}'
-
-##end of code
+         # SOM-Added: session-21       
+      - name: mtx-api
+        group: destinations
+        properties:
+          name: mtx-api # must be used in xs-app.json as well
+          url: ~{mtx-url}
+      - name: ramacapapp_02-auth
+    provides:
+      - name: app-api
+        properties:
+          app-protocol: ${protocol}
+          app-uri: ${default-uri}
+           # EOM-Added: session-21 
+  ##end of code
   - name: ramacapapp_02-srv
     type: nodejs
     path: gen/srv
@@ -45,14 +59,71 @@ modules:
           srv-url: '${default-url}'
     requires:
       - name: ramacapapp_02-auth
-      - name: ramacapapp_02-db
-  - name: ramacapapp_02-db-deployer
-    type: hdb
-    path: gen/db
-    parameters:
-      buildpack: nodejs_buildpack
+      - name: ramacappapp_02-ui-db
+
+  - name: ramacappapp_02-ui-mtx
+    type: nodejs
+    path: gen/mtx/sidecar
     requires:
-      - name: ramacapapp_02-db
+      # - name: ramacappapp_02-ui-auth
+      - name: ramacapapp_02-auth
+      - name: ramacappapp_02-ui-db
+      - name: ramacappapp_02-ui-registry
+      - name: app-api
+        properties:
+          SUBSCRIPTION_URL: ~{app-protocol}://\${tenant_subdomain}-~{app-uri}
+    build-parameters:
+      builder: npm-ci
+    parameters:
+      instances: 1
+      memory: 256M
+      disk-quota: 512M
+    hooks:
+      - name: upgrade-all
+        type: task
+        phases:
+          - blue-green.application.before-start.idle
+          - deploy.application.before-start
+        parameters:
+          name: upgrade
+          memory: 512M # increase as required
+          disk-quota: 768M # increase as required
+          command: cds-mtx upgrade '*'
+    provides:
+      - name: mtx-api
+        properties:
+          mtx-url: ${default-url}
+          # SOM-deleted: session-21
+  # - name: ramacappapp_02-ui
+  #   type: approuter.nodejs
+  #   path: app/
+  #   parameters:
+  #     keep-existing-routes: true
+  #     disk-quota: 256M
+  #     memory: 256M
+  #   # properties:
+  #   #   TENANT_HOST_PATTERN: "^(.*)-${default-uri}"
+  #   requires:
+  #     - name: srv-api
+  #       group: destinations
+  #       properties:
+  #         name: srv-api # must be used in xs-app.json as well
+  #         url: ~{srv-url}
+  #         forwardAuthToken: true
+          # EOM-deleted: session-21  
+          # SOM-deleted: session-21-Copy the below code and added at line- 34 to 44
+    #   - name: mtx-api
+    #     group: destinations
+    #     properties:
+    #       name: mtx-api # must be used in xs-app.json as well
+    #       url: ~{mtx-url}
+    #   - name: ramacapapp_02-auth
+    # provides:
+    #   - name: app-api
+    #     properties:
+    #       app-protocol: ${protocol}
+    #       app-uri: ${default-uri}
+          # EOM-deleted: session-21-Copy the below code and added at line- 34 to 44
 resources:
   - name: ramacapapp_02-auth
     type: org.cloudfoundry.managed-service
@@ -62,11 +133,13 @@ resources:
       path: ./xs-security.json
       config:
         xsappname: 'ramacapapp_02-${org}-${space}'
-        tenant-mode: dedicated
+        tenant-mode: shared
         oauth2-configuration:
           credential-types:
             - binding-secret
             - x509
+          redirect-uris:
+            - https://*~{app-api/app-uri}/**
         role-collections:
           - name: 'Viewer (ramacapapp_02 ${org}-${space})'
             description: generated
@@ -80,8 +153,30 @@ resources:
             description: generated
             role-template-references:
               - $XSAPPNAME.userattributes
-  - name: ramacapapp_02-db
-    type: com.sap.xs.hdi-container
+    requires:
+      - name: app-api
+  - name: ramacappapp_02-ui-db
+    type: org.cloudfoundry.managed-service
     parameters:
-      service: hana
-      service-plan: hdi-shared
+      service: service-manager
+      service-plan: container
+  - name: ramacappapp_02-ui-registry
+    type: org.cloudfoundry.managed-service
+    requires:
+      - name: mtx-api
+    parameters:
+      service: saas-registry
+      service-plan: application
+      config:
+        xsappname: ramacappapp_02-ui-${org}-${space}
+        appName: ramacappapp_02-ui-${org}-${space}
+        displayName: ramacappapp_02-ui
+        description: A simple CAP project.
+        category: 'Category'
+        appUrls:
+          getDependencies: ~{mtx-api/mtx-url}/-/cds/saas-provisioning/dependencies
+          onSubscription: ~{mtx-api/mtx-url}/-/cds/saas-provisioning/tenant/{tenantId}
+          onSubscriptionAsync: true
+          onUnSubscriptionAsync: true
+          onUpdateDependenciesAsync: true
+          callbackTimeoutMillis: 300000 # Increase if your deployments are taking longer than that
