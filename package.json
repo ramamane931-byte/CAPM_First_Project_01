@@ -43,6 +43,7 @@
           "kind": "mocked",
           "users": {
             "ramdas": {
+              "tenant" : "t1",
               "password": "194*Terminator",
               "roles": [
                 "Display",
@@ -55,10 +56,17 @@
               }
             },
             "ananya": {
+              "tenant" : "t2",
               "password": "ananya",
               "roles": [
                 "Editor"
-              ]
+              ],
+              "attr": {
+                "spiderman": [
+                  "My Bank of London",
+                  "My Bank of New York"
+                ]
+              }
             }
           }
         },
