@@ -1,5 +1,5 @@
 {
-  "name": "ramacappapp_02-ui",
+  "name": "ramacapapp_02-ui",
   "version": "1.0.0",
   "dependencies": {
     "@cap-js-community/odata-v2-adapter": "^1.15.12",
@@ -17,7 +17,8 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-managepo_capm": "cds watch --open rama.mngpo.ui.managepocapm/index.html?sap-ui-xx-viewCache=false --livereload false"
+    "watch-managepo_capm": "cds watch --open rama.mngpo.ui.managepocapm/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-poanalytics": "cds watch --open rama.poanalytics.poanalytics/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
   "private": true,
   "description": "Welcome to your new CAP project: RAMACAPAPP02.",
@@ -34,7 +35,8 @@
     "app/*"
   ],
   "sapux": [
-    "app/managepo_capm"
+    "app/managepo_capm",
+    "app/poanalytics"
   ],
   "cds": {
     "requires": {
@@ -43,7 +45,7 @@
           "kind": "mocked",
           "users": {
             "ramdas": {
-              "tenant" : "t1",
+              "tenant": "t1",
               "password": "194*Terminator",
               "roles": [
                 "Display",
@@ -56,7 +58,7 @@
               }
             },
             "ananya": {
-              "tenant" : "t2",
+              "tenant": "t2",
               "password": "ananya",
               "roles": [
                 "Editor"

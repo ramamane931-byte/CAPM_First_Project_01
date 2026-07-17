@@ -37,7 +37,7 @@ modules:
         properties:
           name: mtx-api # must be used in xs-app.json as well
           url: ~{mtx-url}
-      - name: ramacapapp_02-auth
+      # - name: ramacapapp_02-auth
     provides:
       - name: app-api
         properties:
@@ -59,16 +59,16 @@ modules:
           srv-url: '${default-url}'
     requires:
       - name: ramacapapp_02-auth
-      - name: ramacappapp_02-ui-db
+      - name: ramacapapp_02-ui-db
 
-  - name: ramacappapp_02-ui-mtx
+  - name: ramacapapp_02-ui-mtx
     type: nodejs
     path: gen/mtx/sidecar
     requires:
-      # - name: ramacappapp_02-ui-auth
+      # - name: ramacapapp_02-ui-auth
       - name: ramacapapp_02-auth
-      - name: ramacappapp_02-ui-db
-      - name: ramacappapp_02-ui-registry
+      - name: ramacapapp_02-ui-db
+      - name: ramacapapp_02-ui-registry
       - name: app-api
         properties:
           SUBSCRIPTION_URL: ~{app-protocol}://\${tenant_subdomain}-~{app-uri}
@@ -94,7 +94,7 @@ modules:
         properties:
           mtx-url: ${default-url}
           # SOM-deleted: session-21
-  # - name: ramacappapp_02-ui
+  # - name: ramacapapp_02-ui
   #   type: approuter.nodejs
   #   path: app/
   #   parameters:
@@ -155,12 +155,12 @@ resources:
               - $XSAPPNAME.userattributes
     requires:
       - name: app-api
-  - name: ramacappapp_02-ui-db
+  - name: ramacapapp_02-ui-db
     type: org.cloudfoundry.managed-service
     parameters:
       service: service-manager
       service-plan: container
-  - name: ramacappapp_02-ui-registry
+  - name: ramacapapp_02-ui-registry
     type: org.cloudfoundry.managed-service
     requires:
       - name: mtx-api
@@ -168,9 +168,9 @@ resources:
       service: saas-registry
       service-plan: application
       config:
-        xsappname: ramacappapp_02-ui-${org}-${space}
-        appName: ramacappapp_02-ui-${org}-${space}
-        displayName: ramacappapp_02-ui
+        xsappname: ramacapapp_02-ui-${org}-${space}
+        appName: ramacapapp_02-ui-${org}-${space}
+        displayName: ramacapapp_02-ui
         description: A simple CAP project.
         category: 'Category'
         appUrls:
