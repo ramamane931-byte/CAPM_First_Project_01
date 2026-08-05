@@ -1,6 +1,34 @@
 {
   "name": "ramacapapp_02-ui",
   "version": "1.0.0",
+  "private": true,
+  "description": "Welcome to your new CAP project: RAMACAPAPP02.",
+  "keywords": [
+    "RAMP",
+    "CAPM",
+    "NODEJS",
+    "MICROSERVICES"
+  ],
+  "homepage": "https://github.com/ramamane931-byte/CAPM_First_Project_01#readme",
+  "bugs": {
+    "url": "https://github.com/ramamane931-byte/CAPM_First_Project_01/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramamane931-byte/CAPM_First_Project_01.git"
+  },
+  "license": "ISC",
+  "author": "RAMDAS",
+  "type": "commonjs",
+  "main": "index.js",
+  "workspaces": [
+    "app/*"
+  ],
+  "scripts": {
+    "start": "cds-serve",
+    "watch-managepo_capm": "cds watch --open rama.mngpo.ui.managepocapm/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-poanalytics": "cds watch --open rama.poanalytics.poanalytics/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
   "dependencies": {
     "@cap-js-community/odata-v2-adapter": "^1.15.12",
     "@cap-js/attachments": "^3.13.1",
@@ -15,25 +43,6 @@
     "@sap/cds-dk": "^9",
     "cds-plugin-ui5": "^0.17.0"
   },
-  "scripts": {
-    "start": "cds-serve",
-    "watch-managepo_capm": "cds watch --open rama.mngpo.ui.managepocapm/index.html?sap-ui-xx-viewCache=false --livereload false",
-    "watch-poanalytics": "cds watch --open rama.poanalytics.poanalytics/index.html?sap-ui-xx-viewCache=false --livereload false"
-  },
-  "private": true,
-  "description": "Welcome to your new CAP project: RAMACAPAPP02.",
-  "main": "index.js",
-  "keywords": [
-    "RAMP",
-    "CAPM",
-    "NODEJS",
-    "MICROSERVICES"
-  ],
-  "author": "RAMDAS",
-  "license": "ISC",
-  "workspaces": [
-    "app/*"
-  ],
   "sapux": [
     "app/managepo_capm",
     "app/poanalytics"

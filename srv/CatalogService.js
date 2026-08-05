@@ -9,11 +9,11 @@ module.exports = class CatalogService extends cds.ApplicationService {
       console.log('Before CREATE/UPDATE EmployeeSet', req.data)
 
       //get the employee salary info
-      // let salaryAmount = parseFloat(req.data.salaryAmount);
-      // if (salaryAmount > 100000) {
-      //   //Contaminate the incoming request, so CAPM will know that something gone wrong in your GREEN box
-      //   req.error(500, "Hey Amigo!! Check the salary, none of employee get a million");
-      // }
+      let salaryAmount = parseFloat(req.data.salaryAmount);
+      if (salaryAmount > 100000) {
+        //Contaminate the incoming request, so CAPM will know that something gone wrong in your GREEN box
+        req.error(500, "Hey Amigo!! Check the salary, none of employee get a million");
+      }
 
     })
     this.after('READ', EmployeeSet, async (employeeSet, req) => {
