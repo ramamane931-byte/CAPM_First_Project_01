@@ -15,6 +15,9 @@ CAPM First Project
 
 <img width="1079" height="530" alt="image" src="https://github.com/user-attachments/assets/ef07e9e9-4464-4ec8-81c8-d59ca1b30773" />
 
+<img width="1079" height="530" alt="image" src="https://github.com/user-attachments/assets/c79adeec-afb4-4004-8738-3e6eae072cc7" />
+
+
 <img width="1074" height="528" alt="image" src="https://github.com/user-attachments/assets/eaa56849-3810-4fe3-93f9-8399dc53e4d5" />
 
 <img width="1048" height="546" alt="image" src="https://github.com/user-attachments/assets/30199d40-f9de-465d-87ec-c4f240f204aa" />
