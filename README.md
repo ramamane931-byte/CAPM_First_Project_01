@@ -2,7 +2,7 @@
 CAPM First Project 
 
 ##
-### Three different branches create named as 'main', 'mtx' and 'analytics'. 
+### Three different branches created named as 'main', 'mtx' and 'analytics'. 
 ##
 
 <img width="1062" height="561" alt="image" src="https://github.com/user-attachments/assets/f2de30e6-1377-4939-9f4f-3e41e565b920" />
