@@ -8,7 +8,7 @@ using {
 //Will username and password be required to access the service
 service CatalogService @(
     path    : 'CatalogService',
-    requires: 'authenticated-user' //Session 14
+    requires: 'authenticated-user' // ← AUTHENTICATION //Session 14
 ) {
 
     //Entity  - representation of an end point of data to perform CRUDQ tasks
@@ -17,7 +17,7 @@ service CatalogService @(
                       @(restrict: [
         {
             grant: ['READ'],
-            to   : 'Display',
+            to   : 'Display', // ← AUTHORIZATION
             //row level security
             where: 'bankName = $user.spiderman'
         },
@@ -32,26 +32,35 @@ service CatalogService @(
                               as projection on master.employee;
 
     // @readonly  // This annotation will hide the 'Delete' button from the First screen
-    // @Capabilities: {Deletable: false}   // This annotation will hide the 'Delete' button from the First screen
+    //Disables Create, Update, and Delete all at once.
+    @Capabilities: {Deletable: false} // This annotation will hide the 'Delete' button from the First screen
+    //Disables only Delete; Create and Update remain fully allowed. Disabled only specific operation.
+    // @Capabilities: {
+    //     Insertable: false, // hides/blocks Create
+    //     Updatable : false, // hides/blocks Update
+    //     Deletable : false, // hides/blocks Delete
+    //     Sortable  : false, // disables column sorting in the UI
+    //     Filterable: false // disables filtering on this entity/field
+    // }
     entity StatusCode         as projection on master.StatusCode; //Defined entityset as StatusCode or expose in the projection view
 
     //'@(odata.draft.enabled: true)' make the Business Object Draft enabled.
     entity PurchaseOrderSet @(
 
         //SOM-Session 14:
-        restrict                    : [
-            {
-                grant: ['READ'],
-                to   : 'Display'
-            },
-            {
-                grant: [
-                    'WRITE',
-                    'DELETE'
-                ],
-                to   : 'Edit'
-            }
-        ],
+        // restrict                    : [
+        //     {
+        //         grant: ['READ'],
+        //         to   : 'Display'
+        //     },
+        //     {
+        //         grant: [
+        //             'WRITE',
+        //             'DELETE'
+        //         ],
+        //         to   : 'Edit'
+        //     }
+        // ],
         //EOM-Session 14
 
         odata.draft.enabled         : true,
@@ -88,7 +97,7 @@ service CatalogService @(
             end as Spiderman     : Integer
         }
 
-        ///Defined action for 'boost', 'boost' button defination:
+        ///Defined action for 'boost', 'boost' button defination: ///Side effect
         actions {
             ///Side effect - a trigger to my action leads to a change of a field value in data
             //this force framework to make a GET call after action is triggred to load data

@@ -1,11 +1,41 @@
 {
-  "name": "ramacappapp_02-ui",
+  "name": "ramacapapp_02-ui",
   "version": "1.0.0",
+  "private": true,
+  "description": "Welcome to your new CAP project: RAMACAPAPP02.",
+  "keywords": [
+    "RAMP",
+    "CAPM",
+    "NODEJS",
+    "MICROSERVICES"
+  ],
+  "homepage": "https://github.com/ramamane931-byte/CAPM_First_Project_01#readme",
+  "bugs": {
+    "url": "https://github.com/ramamane931-byte/CAPM_First_Project_01/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramamane931-byte/CAPM_First_Project_01.git"
+  },
+  "license": "ISC",
+  "author": "RAMDAS",
+  "type": "commonjs",
+  "main": "index.js",
+  "workspaces": [
+    "app/*"
+  ],
+  "scripts": {
+    "start": "cds-serve",
+    "watch-managepo_capm": "cds watch --open rama.mngpo.ui.managepocapm/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-poanalytics": "cds watch --open rama.poanalytics.poanalytics/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-poanalytics_02": "cds watch --open rama.capm.poanalytics02/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
   "dependencies": {
     "@cap-js-community/odata-v2-adapter": "^1.15.12",
     "@cap-js/attachments": "^3.13.1",
     "@cap-js/hana": "^2",
     "@sap/cds": "^9",
+    "@sap/cds-mtxs": "^3",
     "@sap/xssec": "^4",
     "express": "^5.2.1"
   },
@@ -14,26 +44,10 @@
     "@sap/cds-dk": "^9",
     "cds-plugin-ui5": "^0.17.0"
   },
-  "scripts": {
-    "start": "cds-serve",
-    "watch-managepo_capm": "cds watch --open rama.mngpo.ui.managepocapm/index.html?sap-ui-xx-viewCache=false --livereload false"
-  },
-  "private": true,
-  "description": "Welcome to your new CAP project: RAMACAPAPP02.",
-  "main": "index.js",
-  "keywords": [
-    "RAMP",
-    "CAPM",
-    "NODEJS",
-    "MICROSERVICES"
-  ],
-  "author": "RAMDAS",
-  "license": "ISC",
-  "workspaces": [
-    "app/*"
-  ],
   "sapux": [
-    "app/managepo_capm"
+    "app/managepo_capm",
+    "app/poanalytics",
+    "app/poanalytics_02"
   ],
   "cds": {
     "requires": {
@@ -42,6 +56,7 @@
           "kind": "mocked",
           "users": {
             "ramdas": {
+              "tenant": "t1",
               "password": "194*Terminator",
               "roles": [
                 "Display",
@@ -54,10 +69,17 @@
               }
             },
             "ananya": {
+              "tenant": "t2",
               "password": "ananya",
               "roles": [
                 "Editor"
-              ]
+              ],
+              "attr": {
+                "spiderman": [
+                  "My Bank of London",
+                  "My Bank of New York"
+                ]
+              }
             }
           }
         },
@@ -68,8 +90,13 @@
       "[production]": {
         "auth": {
           "kind": "xsuaa"
-        }
+        },
+        "multitenancy": true
+      },
+      "[with-mtx]": {
+        "multitenancy": true
       }
-    }
+    },
+    "profile": "with-mtx-sidecar"
   }
 }

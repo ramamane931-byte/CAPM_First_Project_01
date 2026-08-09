@@ -12,7 +12,7 @@ http://localhost:4004/odata/v4/CatalogService/$metadata
 
 ###Read my All Employee Data - SELECT * FROM emp
 http://localhost:4004/odata/v4/CatalogService/EmployeeSet
-Authorization: Basic ramdas:194*Terminator
+# Authorization: Basic ramdas:194*Terminator
 
 ###Read only the relevant fields from all employess - SELECT ID, nameFirst,.. FROM employee
 http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$select=ID,nameFirst,nameLast,sex,email
