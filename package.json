@@ -27,7 +27,8 @@
   "scripts": {
     "start": "cds-serve",
     "watch-managepo_capm": "cds watch --open rama.mngpo.ui.managepocapm/index.html?sap-ui-xx-viewCache=false --livereload false",
-    "watch-poanalytics": "cds watch --open rama.poanalytics.poanalytics/index.html?sap-ui-xx-viewCache=false --livereload false"
+    "watch-poanalytics": "cds watch --open rama.poanalytics.poanalytics/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-poanalytics_02": "cds watch --open rama.capm.poanalytics02/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
   "dependencies": {
     "@cap-js-community/odata-v2-adapter": "^1.15.12",
@@ -45,7 +46,8 @@
   },
   "sapux": [
     "app/managepo_capm",
-    "app/poanalytics"
+    "app/poanalytics",
+    "app/poanalytics_02"
   ],
   "cds": {
     "requires": {
